@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build && nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
@@ -16,7 +16,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vue-fragment": "^1.5.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
