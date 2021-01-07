@@ -37,6 +37,11 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['~/plugins/vue-fragment'],
 
+  generate: {
+    fallback: false,
+    routes: ['/', '404']
+  },
+
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
