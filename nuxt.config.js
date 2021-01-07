@@ -38,7 +38,7 @@ export default {
   plugins: ['~/plugins/vue-fragment'],
 
   generate: {
-    fallback: false,
+    fallback: true,
     routes: ['/', '404']
   },
 
@@ -61,6 +61,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxt/http',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
