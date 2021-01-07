@@ -90,6 +90,5 @@ sw.*
 # Vim swap files
 *.swp
 
-# App Css and App JS
-/assets/css/app.css
-/assets/js/app.js
+# Deployment Vercel
+.vercel
